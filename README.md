@@ -53,4 +53,4 @@ LLM Identification, Finding OpenSource Vector DB which suits our use-case.
 - 🔹 Frontend: Angular
 - 🔹 Backend: Django
 - 🔹 Database: Qdrant Vector DB
-- 🔹 Other: Gemini
+- 🔹 Other: Gemini, Tesseract OCR
