@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 GenMail Classifier
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -20,11 +20,13 @@ To address this challenge, we propose an AI-driven solution leveraging Generativ
 
 
 ## 🎥 Demo
-Working Demo & Explanation of Solution:[[Live Demo](https://drive.google.com/file/d/1GHD6j-8iMzwy_W6vOvNMOd-cICs8h8cc/view?usp=sharing)]   
-[Power-Point Presentation](https://docs.google.com/presentation/d/1Mo8C_r8jC5vqS68xibjQkhsMkzlWINKk/edit?usp=sharing&ouid=108754397975245164290&rtpof=true&sd=true)
+
+🔗 [Live Demo](#) (if applicable)  
+📹 [Video Demo - Working](https://github.com/ewfx/gaied-ai-innovators/blob/main/artifacts/demo/Email_Processing_System_Demo.mp4)
+[Power-Point Presentation](https://github.com/ewfx/gaied-ai-innovators/blob/main/artifacts/arch/Email_Processing_System_Presentation.pptx)
 🖼️ Screenshots:
-![[Architecture Flow PoC](https://drive.google.com/file/d/18C_-OXFSK6em0zLE5DTcyYv2iw_d7wLE/view?usp=sharing)]
-![[Architecture Flow Target State](https://drive.google.com/file/d/1ZjYIDLHAnApNvuHqy3uwI_0MECIJK0yM/view?usp=drive_link)] 
+![[Architecture Flow PoC](https://github.com/ewfx/gaied-ai-innovators/blob/main/artifacts/arch/PoC-Flow-Diagram.jpg)]
+![[Architecture Target State](https://github.com/ewfx/gaied-ai-innovators/blob/main/artifacts/arch/High%20Level%20Solution%20Arch.jpg)] 
 
 ## ⚙️ What It Does
 Email Extraction, Request & Sub Request Classification using LLM, Duplicate Service Request Identifier using Vector DB
