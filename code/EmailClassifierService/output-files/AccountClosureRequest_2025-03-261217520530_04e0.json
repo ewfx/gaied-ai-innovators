@@ -1,0 +1,11 @@
+{
+    "requestType": "Account Services",
+    "subRequestType": "Account Closure",
+    "confidenceScore": 0.98,
+    "summary": "Account closure request for account number 2345678901 from Emily Davis and John Doe",
+    "extractedAttributes": {
+        "Account Number": "2345678901",
+        "Customer Name": "Emily Davis, John Doe"
+    },
+    "isDuplicate": 0
+}
