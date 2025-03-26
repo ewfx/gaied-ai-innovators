@@ -1,3 +1,3 @@
-Replace this file with a document that describes the architecture and design of your solution architecture. This may include
-    - An architecture drawing exported into a png/jpeg format image
-    - A document in pdf or md format that describes your solution
+Proposing an AI-driven solution leveraging Generative AI (LLMs) and Vector DB to automate email classification and data extraction. The system will intelligently classify requests, extract relevant banking attributes, and enable skill-based routing, improving efficiency, accuracy, and turnaround time while reducing manual intervention.
+
+https://github.com/ewfx/gaied-ai-innovators/blob/main/artifacts/arch/High%20Level%20Solution%20Arch.jpg
