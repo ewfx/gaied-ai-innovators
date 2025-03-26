@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Email File</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        input[type="file"] {
+            margin: 10px 0;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Upload an Email (.msg) File</h2>
+         {% if message %}
+            <p style="color: green;">{{ message }}</p>
+        {% endif %}
+
+        <form action="/emailclassifier/upload-email/" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input type="file" name="email_file" required>
+            <br>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+</body>
+</html>
