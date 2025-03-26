@@ -4,7 +4,7 @@ from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import redirect
 from django.http import JsonResponse
-from .utils.email_content_extractor import EmailProcessorFromWeb
+from emailclassifier.utils.email_content_extractor import EmailContentExtractor
 
 # Directory to store uploaded email files
 UPLOAD_DIR = "uploaded_emails"
@@ -50,8 +50,9 @@ def process_uploaded_email(request):
 
 
         # Initialize and use EmailClassifier
-        emailprocessorfromweb = EmailProcessorFromWeb()
-        classification_result = emailprocessorfromweb.process_email_classification(file_path)
+        print('web'+file_path)
+        emailprocessorfromweb = EmailContentExtractor()
+        classification_result = emailprocessorfromweb.processemailClassificationFromweb(file_path)
         return JsonResponse(classification_result)
 
     return JsonResponse({"error": "Invalid request or missing file"}, status=400)
