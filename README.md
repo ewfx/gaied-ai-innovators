@@ -24,8 +24,8 @@ To address this challenge, we propose an AI-driven solution leveraging Generativ
 📹 [Video Demo](#) (if applicable)  
 🖼️ Screenshots:
 
-![Architecture Flow PoC](https://drive.google.com/file/d/18C_-OXFSK6em0zLE5DTcyYv2iw_d7wLE/view?usp=sharing)
-![Architecture Flow Target State](https://drive.google.com/file/d/1ZjYIDLHAnApNvuHqy3uwI_0MECIJK0yM/view?usp=drive_link) 
+![[Architecture Flow PoC](https://drive.google.com/file/d/18C_-OXFSK6em0zLE5DTcyYv2iw_d7wLE/view?usp=sharing)]
+![[Architecture Flow Target State](https://drive.google.com/file/d/1ZjYIDLHAnApNvuHqy3uwI_0MECIJK0yM/view?usp=drive_link)] 
 
 ## ⚙️ What It Does
 Email Extraction, Request & Sub Request Classification using LLM, Duplicate Service Request Identifier using Vector DB
