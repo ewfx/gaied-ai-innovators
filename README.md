@@ -23,11 +23,12 @@ To address this challenge, we propose an AI-driven solution leveraging Generativ
 
 🔗 [Live Demo](#) (if applicable)  
 📹 [Video Demo](https://github.com/ewfx/gaied-ai-innovators/blob/main/artifacts/demo/Email_Processing_System_Demo.mp4) 
-[Power-Point Presentation](https://github.com/ewfx/gaied-ai-innovators/blob/main/artifacts/arch/Email_Processing_System_Presentation.pptx)
+
+    [Power-Point Presentation](https://github.com/ewfx/gaied-ai-innovators/blob/main/artifacts/arch/Email_Processing_System_Presentation.pptx)
 
 🖼️ Screenshots: 
-![[Architecture Flow PoC](https://github.com/ewfx/gaied-ai-innovators/blob/main/artifacts/arch/PoC-Flow-Diagram.jpg)]
-![[Architecture Target State](https://github.com/ewfx/gaied-ai-innovators/blob/main/artifacts/arch/High%20Level%20Solution%20Arch.jpg)] 
+    [[Architecture Flow PoC](https://github.com/ewfx/gaied-ai-innovators/blob/main/artifacts/arch/PoC-Flow-Diagram.jpg)]
+    [[Architecture Target State](https://github.com/ewfx/gaied-ai-innovators/blob/main/artifacts/arch/High%20Level%20Solution%20Arch.jpg)] 
 
 ## ⚙️ What It Does
 Email Extraction, Request & Sub Request Classification using LLM, Duplicate Service Request Identifier using Vector DB
