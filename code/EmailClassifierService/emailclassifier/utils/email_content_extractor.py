@@ -142,6 +142,7 @@ def processemailclassficationfromweb(filepath):
     email_data = extract_email_content(filepath)
     emailtypeclassifer = EmailTypeClassifer(qdrant_client=QDRANT_CLIENT)
     classification_result = emailtypeclassifer.classify_email(email_data)
+    print(classification_result)
     return classification_result
 
 class EmailContentExtractor:
@@ -149,4 +150,4 @@ class EmailContentExtractor:
         initiate_email_classification(filepath)
 
     def processemailClassificationFromweb(self,filepath):
-        processemailclassficationfromweb(filepath)
+        return processemailclassficationfromweb(filepath)
