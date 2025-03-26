@@ -19,7 +19,7 @@ class EmailTypeClassifer:
     def __init__(self, qdrant_client):
         """Initialize the Email Classifier with Qdrant and Gemini models."""
         self.api_key = 'AIzaSyDBOqBMpQHp7tMFPhHtTl7YhtRNHseuynA'
-        self.qdrant_client = qdrant_client  # ✅ Use the shared Qdrant instance
+        self.qdrant_client = qdrant_client  #Use the shared Qdrant instance
 
         # Configure Gemini model
         genai.configure(api_key=self.api_key)
