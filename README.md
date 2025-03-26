@@ -51,9 +51,19 @@ LLM Identification, Finding OpenSource Vector DB which suits our use-case.
    ```sh
    python manage.py runserver
    ```
+4. Test the project using curl 
+   ```sh
+   curl -X POST -F "email_file=@loanpayment.msg" http://127.0.0.1:8000/emailclassifier/process-email/
+   ```
+5. Test the project using UI. Upload the .msg file using below page. Output can be found at folder EmailClassifierService\output-files with emailsubject name as prefix
+   ```sh
+   http://127.0.0.1:8000/emailclassifier/upload-page
+   ```
+6. Copy the test files from artifacts/demo/testmessages.zip extract to EmailClassifierService\uploaded_emails. This is to test the bulk set of emails.Output can be found at folder EmailClassifierService\output-files with emailsubject name as prefix
 
+   
 ## 🏗️ Tech Stack
-- 🔹 Frontend: Angular
+- 🔹 Frontend: Angular(Testing purpose only)
 - 🔹 Backend: Django
 - 🔹 Database: Qdrant Vector DB
 - 🔹 Other: Gemini, Tesseract OCR
