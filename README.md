@@ -20,8 +20,7 @@ To address this challenge, we propose an AI-driven solution leveraging Generativ
 
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
+🔗 [[Live Demo](https://drive.google.com/file/d/1GHD6j-8iMzwy_W6vOvNMOd-cICs8h8cc/view?usp=sharing)]   
 🖼️ Screenshots:
 
 ![[Architecture Flow PoC](https://drive.google.com/file/d/18C_-OXFSK6em0zLE5DTcyYv2iw_d7wLE/view?usp=sharing)]
